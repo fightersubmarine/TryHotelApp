@@ -93,6 +93,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C720B79A2C6D224A00A98483 /* UI+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C72813B62BF66C1C004CF670 /* UILable+Extension.swift */,
+				C72813B82BF66D09004CF670 /* UIColor+Extension.swift */,
+				C721CC942BFF4E2400B3956F /* UIButton+Extension.swift */,
+				C7D251D22C03B09E0071A833 /* UIActivityIndicatorView+Extension.swift */,
+			);
+			path = "UI+Extension";
+			sourceTree = "<group>";
+		};
 		C721CC962BFF5AB900B3956F /* HotelScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,11 +181,8 @@
 		C728139C2BF666F9004CF670 /* Metric */ = {
 			isa = PBXGroup;
 			children = (
+				C720B79A2C6D224A00A98483 /* UI+Extension */,
 				C72813B22BF66978004CF670 /* Constraint.swift */,
-				C72813B62BF66C1C004CF670 /* UILable+Extension.swift */,
-				C72813B82BF66D09004CF670 /* UIColor+Extension.swift */,
-				C721CC942BFF4E2400B3956F /* UIButton+Extension.swift */,
-				C7D251D22C03B09E0071A833 /* UIActivityIndicatorView+Extension.swift */,
 			);
 			path = Metric;
 			sourceTree = "<group>";
